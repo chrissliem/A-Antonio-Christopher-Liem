@@ -1,0 +1,11 @@
+const antrian = ["ray", "fiki", "fadila", "farah"];
+console.log("antrian awal : " + antrian);
+antrian.push("nabila");
+antrian.push("mazaya", "elsi");
+antrian.pop();
+console.log(antrian);
+antrian.shift();
+antrian.shift();
+console.log(antrian);
+antrian.unshift("tomi");
+console.log(antrian);
